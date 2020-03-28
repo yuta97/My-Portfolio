@@ -1,0 +1,138 @@
+/*body*/
+body{
+  margin:0 0;
+  text-align:center;
+}
+h2{
+  font-size: 50px;
+}
+/*header*/
+header{
+  background-color:#ddd;
+  height: 480px;
+  margin: 0 0;
+}
+header h1{
+  margin:0 0;
+  padding:70px 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 94px;
+}
+.translation{
+  font-size: 30px;
+  margin:0;
+}
+.position{
+  font-size: 45px;
+  margin:0;
+}
+/*nav*/
+nav{
+  background-color:  #ddd;
+  height: 60px;
+  margin:0 0;
+  /*position:fixed;*/
+  /*top:480px;*/
+}
+.nav-list ul{
+  margin: 0;
+  padding: 0;
+}
+.nav-list li{
+  display: block;
+  width: 25%;
+  float:left;
+}
+.nav-list a{
+  color: #fff;
+  background: #69e;
+  display: block;
+  line-height: 1.0;
+  padding: 12px 0;
+  border-left: 1px solid #fff;
+  text-decoration: none;
+  /*padding:5 0;*/
+  font-size: 30px;
+  height: 60px;
+}
+.is-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+/*main*/
+/*about*/
+table{
+  text-align:center;margin:auto;
+}
+td{
+  text-align:left;
+  padding:5px 15px;
+  font-size: 20px;
+}
+td a{
+  text-decoration: none;
+}
+/*works*/
+#works{
+  background-color:#ddd;
+}
+.works-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.works-item{
+  width: 30%;
+  border: outset 2px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px #999;
+  margin: 20px;
+}
+.item-name{
+  font-size: 25px;
+}
+.item-overview , .item-skill{
+  font-size: 15px;
+}
+/*skills*/
+.skills-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.skills-table{
+  width:30%;
+}
+.skills-table p{
+  display: inline-block;
+  text-align:left;
+  border-bottom: solid 3px #87CEFA;
+  font-size: 20px;
+}
+.skills-table ul{
+  font-size: 15px;
+}
+
+.skills-items li{
+  text-align:left;
+}
+/*footer*/
+.footer{
+  background-color:  #ddd;
+  height: 90px;  
+}
+.footer-logo{
+  float:left;
+  padding:20px 30px;
+}
+.footer-list li{
+  list-style:none;
+  float:left;
+  padding:20px 30px;
+}
+.footer-list a{
+  text-decoration: none;
+}
